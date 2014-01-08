@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+		<link rel="stylesheet" type="text/css" href="css/design.css">
+		<script src="js/script.js"></script>
+
+		<!-- java script and css for image zooming -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+		
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla:400,700">
+		<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+		
+		<title>
+			The Evil Library - dum dum dum
+		</title>
+</head>
+
+
+<body>
+	<div class = "main">
+		<div class = "lowerInnerDiv">
+			
+			<div class = "outerFormField">
+				<form class="formView" data-login="true" method="POST" action="index.html">
+					<div class="formField">
+						<label for="username" class = "loginLabel">
+							Username: 
+						</label>
+						<input type="text" class = "loginBox" name="username" id="username" />
+						<span class = 'login' id = 'userSpan'></span>
+					</div>
+					<br/>
+					<div class="formField">
+						<label for="password" class = "loginLabel">
+							Password: 
+						</label>
+						<input type="password" class = "loginBox" name="password" id="password" />
+					</div>
+					
+					<input type="checkbox" id="c1" name="cc" />
+					<label for="c1"><span style = "margin-left:5%;"></span>Keep me logged in</label>
+					
+					<input type="submit" name="submit" value="Login!" class = "loginButton" onClick = "return loginChecker()"/>
+				</form>
+			</div>
+			
+			<p class = "normal2"  > No acount? </p> <br/>
+			<a href = "register.html" class = "registerNow" style = "margin-left:9%;">Click here to register a new account</a>
+		</div>
+	</div>
+</body>
+

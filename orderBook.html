@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+		<link rel="stylesheet" type="text/css" href="css/design.css">
+		<script src="js/script.js"></script>
+
+		<!-- java script and css for image zooming -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+		
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla:400,700">
+		<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+		
+		<title>
+			The Evil Library - dum dum dum
+		</title>
+</head>
+
+
+<body>
+	<div class = "main">
+		<div class = "upperInnerDiv">
+			<text class = "user">Welcome UserX</text><a class = "logout" href = "#">logout</a>
+		</div>
+		<div class = "lowerInnerDiv" style = 'overflow-y:hidden;'>
+			<div class = "linkBar">
+				<ul>
+					<li class = "links"><a href = "index.html" class = "links">Home</a></li> 		
+					<li class = "links"><a href = "booklists.html" class = "links"> Book Lists </a></li> 			
+					<li class = "links"><a href = "viewAccount.html" style = "padding-top: 4%" class = "links"> View Account	</a></li> 
+					<li class = "links lastLink"><a href = "help.html" class = "links"> Help<img class = "question" src = "images/question.jpg">	</a></li>
+				</ul>
+			</div>
+			
+			<hr/>
+			
+			<p class = 'normal4'><u>
+				Still can't find the book you're looking for? 
+			</u></p>
+			<p class = 'normal4'>
+				Reserve it now for a later date. Please fill in the following:
+			</p>
+			
+			<div class = 'orderDiv'>
+			
+				<div class = "formLeft">
+					<div class = "spacing2">
+						<p class = "normal3"> Author  </p>
+					</div>
+					<div class = "spacing2">
+						<p class = "normal3"> Title  </p>
+					</div>
+					<div class = "spacing2">
+						<p class = "normal3"> Year  </p>
+					</div>
+					<div class = "spacing2">
+						<p class = "normal3"> Type  </p>
+					</div>
+				</div>
+				
+				<div class = "formRight">
+					<div class = "spacing2">
+						<input type = "text" class = "regBox" placeholder = "Enter Author's Name" id = '1'>
+						
+						<div id = 'emailConfirm'>
+							<!-- js edit for order book button -->
+						</div>
+
+					</div>
+					
+					<div class = "spacing2">
+						<input type = "text" class = "regBox" placeholder = "Enter Book Title" id = '2'>
+					</div>
+					<div class = "spacing2">
+						<input type = "text" class = "regBox" placeholder = "Enter Year Released" id = '3'>
+					</div>
+					<div class = "spacing2">
+						<select id = "books2"  onChange="updateBookType(this.options[this.selectedIndex].innerHTML)">
+							<option value="Other">Other</option>
+							<option value="Thriller">Thriller</option>
+							<option value="War">War</option>
+							<option value="Music">Music</option>
+							<option value="Adventure">Adventure</option>
+							<option value="Cooking">Cooking</option>
+						</select>
+						
+						<button class = 'orderButton' onClick = 'orderBook();'>Reserve </button>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</body>

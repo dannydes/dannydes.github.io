@@ -1,0 +1,43 @@
+li.links {
+    width: 100%;
+    height: 150px;
+    border-bottom: rgb(0, 0, 0) solid 1px;
+}
+
+li.lastLink {
+    border-bottom: rgb(0, 0, 0) solid 0px;
+}
+
+.emptySpacing {
+    display: none;
+}
+
+div.spacing {
+    height: 100px;
+}
+
+.formRight {
+    position: relative;
+    left: 80px;
+}
+
+div.email {
+    position: relative;
+    right: 18px;
+    width: 100%;
+}
+
+div.bookGenre {
+    width: 100%;
+    height: 150px;
+}
+
+#books {
+    position: relative;
+    right: 5%;
+    width: 100%;
+}
+
+div.bookShow {
+    width: 100%;
+}
