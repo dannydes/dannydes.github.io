@@ -41,3 +41,7 @@ div.bookGenre {
 div.bookShow {
     width: 100%;
 }
+
+.imageBox {
+    display: none;
+}
