@@ -1,6 +1,2 @@
-dannydes.github.io
-==================
-
-Evil Library for elderly people (TM)
-
-Markup and styles are not mine. Honestly, I'm not that bad.
+# Homepage
+Homepage for Daniel Desira: http://dannydes.github.io 
