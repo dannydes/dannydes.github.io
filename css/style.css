@@ -1,5 +1,9 @@
 .social-buttons {
 	margin-left: auto;
 	margin-right: 0;
-	width: 60px;
+	width: 120px;
+}
+
+.social-buttons > a {
+	margin-right: 15px;
 }
