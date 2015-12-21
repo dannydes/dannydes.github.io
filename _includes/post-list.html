@@ -1,4 +1,5 @@
-{% for post in site.posts limit:page.post_limit %}
+{% posts = if page.display_related_posts != 1 then site.posts else site.related_posts end %}
+{% for post in posts limit:page.post_limit %}
 <div class="panel panel-default">
 	<div class="panel-heading">
 		<a href="{{ post.url }}">{{ post.title }}</a>
