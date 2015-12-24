@@ -1,4 +1,4 @@
-{% if page.display_related_posts == 1 %}
+{% if page.layout == 'post' %}
 	{% assign posts = site.related_posts %}
 {% else %}
 	{% assign posts = site.posts %}
