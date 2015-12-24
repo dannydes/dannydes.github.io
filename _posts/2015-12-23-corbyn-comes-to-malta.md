@@ -2,7 +2,7 @@
 title: Corbyn Comes To Malta!
 layout: post
 category: politics
-tags: labour, politics, socialism, malta, uk
+tags: labour politics socialism malta uk
 ---
 
 ![Picture of Jeremy Corbyn](https://cdn-attachments.timesofmalta.com/cb6de655f38acace75dbf27b3a95dad05fa8c657-1450873355-567a920b-620x348.jpg)
