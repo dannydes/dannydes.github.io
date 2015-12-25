@@ -13,7 +13,7 @@ people in our society](). It is nice to celebrate but this time of the year shou
 as a time to reflect on both yourself and those who surround you - followed by our country 
 and the world out there.
 
-It's time for change - put some time into helping others, animals, our environment, our 
+It's time for change - put some time into helping other people, animals, our environment, our 
 society in general.. It doesn't take much to make a difference.
 
 I wish you a Christmas full of love and joy!
