@@ -2,14 +2,15 @@
 title: Christmas Reflection - My Christmas Message
 layout: post
 category: reflection
-tags: mercy justice capitalism
+tags: solidarity capitalism
 ---
 
 The feast of Christmas is back upon us and the usual ritual of celebrations and expensive 
 presents follows.
 
-To brighten things up, there are still [people doing their utmost to help the most vulnerable 
-people in our society](). It is nice to celebrate but this time of the year should also serve 
+To brighten things up, there are still [people doing their utmost to help vulnerable 
+people in our society](http://netnews.com.mt/news/kollox-lest-ghall-ikla-ghal-min-mghandux-fjum-il-milied/).
+It is nice to celebrate but this time of the year should also serve 
 as a time to reflect on both yourself and those who surround you - followed by our country 
 and the world out there.
 
