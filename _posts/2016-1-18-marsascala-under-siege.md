@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Marsascala open spaces under siege
+category: environment
+tags: environment politics odz mepa marsascala malta
 ---
 
 The proposed non-American non-University of Sadeen in Zonqor and the land transfer approved by parliament is old news.
