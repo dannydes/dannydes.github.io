@@ -1,2 +1,2 @@
-# Homepage
-Homepage for Daniel Desira: http://dannydes.github.io 
+# Website
+Personal website and blog for Daniel Desira: http://dannydes.github.io 
