@@ -36,7 +36,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-right">
-						<li{% if page.title == 'dannydes' %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
+						<li{% if page.title == 'Home' %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
 						<li{% if page.title == 'Blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
 						<li{% if page.title == 'Portfolio' %} class="active"{% endif %}><a href="{{ site.url }}/portfolio">Portfolio</a></li>
 						<li{% if page.title == 'About' %} class="active"{% endif %}><a href="{{ site.url }}/about">About</a></li>
@@ -44,3 +44,7 @@
 				</div>
 			</div>
 		</nav>
+		<div class="container">
+			<div class="page-header">
+				<h1>{{ page.title }}</h1>
+			</div>
