@@ -4,6 +4,8 @@ layout: default
 
 <div id="post">
 	{{ content }}
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_native_toolbox"></div>
 	<p><strong>Filed under <a href="{{ site.url }}/{{ page.category }}">{{ page.category }}</a></strong></p>
 	<strong>Tags</strong>
 	{% for tag in page.tags %}
@@ -37,3 +39,5 @@ layout: default
 	{% include post-list.html %}
 </div>
 {% endif %}
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56aa8d91c91a4535" async="async"></script>
