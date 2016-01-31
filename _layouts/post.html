@@ -35,7 +35,7 @@ layout: default
 
 {% assign related_posts = (site.posts | where: 'category', page.category) %}
 {% if related_posts.size > 1 %}
-<div id="related">
+<div id="related"><span>{{ page.category }}</span>
 	<h2>Related Posts</h2>
 	{% include post-list.html %}
 </div>
