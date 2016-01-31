@@ -1,7 +1,7 @@
 ---
 title: Michael Falzon - political accountability?
 layout: post
-category: polititics
+category: politics
 tags: polititics labour nationalists pl pn gaffarena
 ---
 
