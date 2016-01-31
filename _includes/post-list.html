@@ -1,5 +1,5 @@
 {% if page.layout == 'post' %}
-	{% assign posts = (site.posts | where: 'category', page.category ) %}
+	{% assign posts = (site.posts | where: 'category', page.category) %}
 {% else %}
 	{% assign posts = site.posts %}
 {% endif %}
