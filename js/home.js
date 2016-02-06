@@ -1,5 +1,6 @@
 (function ( $ ) {
 	$( '.home-slider' ).unslider({
-		autoplay: true
+		autoplay: true,
+		arrows: false
 	});
 })( jQuery );
