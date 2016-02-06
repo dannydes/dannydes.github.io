@@ -12,3 +12,5 @@ body { padding-top: 70px; }
 }
 
 .social-buttons > a { margin-right: 15px; }
+
+.panel-content > img, .post img { max-width: 290px; }

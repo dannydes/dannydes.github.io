@@ -2,3 +2,5 @@
 	max-height: 300px;
 	max-width: 300px;
 }
+
+.panel-content > img , .post img{ max-width: none; }

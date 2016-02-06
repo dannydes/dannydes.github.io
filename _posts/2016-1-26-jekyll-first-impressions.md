@@ -3,9 +3,8 @@ title: Jekyll - My First Impressions
 layout: post
 category: technology
 tags: technology blogging ruby jekyll web github githubpages code
+image: jekyll-logo.png
 ---
-
-![jekyll logo]({{ site.url }}/img/jekyll-logo.png)
 
 As you might have guessed from the URL, this very website runs on Jekyll, Github's static 
 site generator. The main reason why I have opted for this was the amazing uptime and 
