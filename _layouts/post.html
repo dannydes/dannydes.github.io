@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div id="post">
+<div class="post">
   <img src="{{ site.url }}/img/{{ page.image }}" alt="">
 	{{ content }}
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<div class="addthis_native_toolbox"></div>
-	<p><strong>Filed under <a href="{{ site.url }}/{{ page.category }}">{{ page.category }}</a></strong></p>
+	<p><strong>Filed under <a href="#related">{{ page.category }}</a></strong></p>
 	<strong>Tags</strong>
 	{% for tag in page.tags %}
-		<a href="">{{ tag }}</a>
+		<a href="#related">{{ tag }}</a>
 	{% endfor %}
 </div>
 
