@@ -1,4 +1,4 @@
 ---
 title: Degree
-image: 
+image: uni-result-sheet.png
 ---
