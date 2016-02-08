@@ -1,5 +1,14 @@
 {% if page.layout == 'post' %}
 	{% assign posts = (site.posts | where: 'category', page.category) %}
+	{% for tag in page.tags %}
+		{% for post in site.posts %}
+			{% if post.tags contains tag %}
+				{% unless posts | map: 'title' contains post.title %}
+					{% assign posts = posts | push: post %}
+				{% endunless %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
 {% else %}
 	{% assign posts = site.posts %}
 {% endif %}
