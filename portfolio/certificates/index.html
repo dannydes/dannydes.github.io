@@ -1,0 +1,8 @@
+---
+title: Certificates
+layout: default
+---
+
+{% for certificate in site.certificates %}
+	{{ certificate.title }} <img src="{{ site.url }}/img/{{ certificate.image }}" alt="certificate"><br>
+{% endfor %}
