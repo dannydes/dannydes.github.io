@@ -4,18 +4,18 @@ layout: default
 image: danieldesira.jpg
 ---
 
-<form id="contact-form">
+<form id="contact-form" action="#">
 	<div class="form-group">
 		<label for="name">Your name</label>
-		<input type="text" class="form-control" id="name" name="name">
+		<input type="text" class="form-control" id="name" name="name" required>
 	</div>
 	<div class="form-group">
 		<label for="email">Your email</label>
-		<input type="email" class="form-control" id="email" name="email">
+		<input type="email" class="form-control" id="email" name="email" required>
 	</div>
 	<div class="form-group">
 		<label for="message">Your message</label>
-		<textarea class="form-control" id="message" name="message"></textarea>
+		<textarea class="form-control" id="message" name="message" required></textarea>
 	</div>
 	<input type="hidden" id="hidden">
 	<input type="submit" class="btn btn-primary" name="submit" value="Send">
