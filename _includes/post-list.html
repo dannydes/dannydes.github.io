@@ -3,6 +3,9 @@
 	{% for tag in page.tags %}
 		{% for post in site.posts %}
 			{% if post.tags contains tag %}
+				{% assign titles = posts | map: 'title' %}
+				{% assign dup = titles contains post.title %}
+				{{ dup }}
 				{% unless posts | map: 'title' contains post.title %}
 					{% assign posts = posts | push: post %}
 				{% endunless %}
