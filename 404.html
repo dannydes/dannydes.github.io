@@ -3,8 +3,17 @@ layout: default
 title: Page Not Found!
 ---
 
+{{ request.request_url }}
+
 <div class="well">
 	<p>Please check the URL.</p>
 	<p>If you followed a link in this same website please <a href="https://github.com/dannydes/dannydes.github.io/issues/new" target="_blank">file an issue!</a></p>
-	<img src="{{ site.url }}/img/2013-08-20_062910.jpg" alt="picture of confused cat" height="500">
+	<div class="row">
+		<div class="col-md-4 col-xs-12"></div>
+		<div class="col-md-4 col-xs-12">
+			<a class="thumbnail" href="#">
+				<img src="{{ site.url }}/img/2013-08-20_062910.jpg" alt="picture of confused cat">
+			</a>
+		</div>
+	</div>
 </div>
