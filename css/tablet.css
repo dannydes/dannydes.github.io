@@ -3,4 +3,4 @@
 	max-width: 300px;
 }
 
-.panel-content > img , .post img { max-width: none; }
+.post img { max-width: none; }
