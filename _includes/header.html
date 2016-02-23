@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="{{ site.url }}/css/style.css">
 		<link rel="stylesheet" href="{{ site.url }}/css/tablet.css" media="(min-width: 768px)">
-		<noscript><link rel="stylesheet" href="{{ site.url }}/css/noscript.css"></noscript>
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<title>{{ page.title }}</title>
@@ -27,9 +26,6 @@
 					</button>
 					<a class="navbar-brand" href="{{ site.url }}">dannydes</a>
 				</div>
-				<noscript>
-					<div>Your JavaScript is disabled - this might hurt your experience. Please follow these <a href="http://www.enable-javascript.com/" target="_blank">steps</a>.</div>
-				</noscript>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-right">
 						<li{% if page.title == 'Home' %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
@@ -57,6 +53,9 @@
 			</div>
 		</nav>
 		<div class="container">
+			<noscript>
+				<div class="alert alert-warning">Your JavaScript is disabled - this might hurt your experience. Please follow these <a href="http://www.enable-javascript.com/" target="_blank">steps</a>.</div>
+			</noscript>
 			<div class="page-header">
 				<h1>{{ page.title }}</h1>
 			</div>
