@@ -1,5 +1,6 @@
 body { padding-top: 50px; }
 .container { width: 100%; }
+.navbar { opacity: 0.95; }
 .post img { max-width: 290px; }
 
 .my-photo {
