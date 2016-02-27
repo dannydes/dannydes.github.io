@@ -2,7 +2,7 @@
 title: Why Stop Spring Hunting
 layout: post
 category: environment
-image: turtledove
+image: turt_gpc_tcm9-218695.jpg
 ---
 
 The Ornis Commitee has recently recommended a spring hunting season despite turtle dove being marked
