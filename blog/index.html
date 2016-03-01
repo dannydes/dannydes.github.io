@@ -6,6 +6,7 @@ image: danieldesira.jpg
 
 {% include blogroll.html %}
 {% include post-list.html %}
+
 <div class="row">
 	<div class="col-md-2 col-md-offset-5">
 		<nav>
@@ -17,6 +18,16 @@ image: danieldesira.jpg
 						</a>
 					</li>
 				{% endif %}
+				<li><a href="{{ site.url }}/blog">1</a></li>
+				{% assign immediate_prev = paginator.page | minus: 1 %}
+				{% if immediate_prev > 1 %}
+					<li><a href="{{ site.url }}/blog/page{{ immediate_prev }}">{{ immediate_prev }}</a></li>
+				{% endif %}
+				{% assign immediate_next = paginator.page | plus: 1 %}
+				{% if immediate_next < paginator.total_pages %}
+					<li><a href="{{ site.url }}/blog/page{{ immediate_next }}">{{ immediate_next }}</a></li>
+				{% endif %}
+				<li><a href="{{ site.url }}/blog/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
 				{% if paginator.next_page %}
 					<li>
 						<a href="{{ paginator.next_page_path }}" aria-label="Next">
