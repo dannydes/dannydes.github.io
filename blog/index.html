@@ -6,3 +6,21 @@ image: danieldesira.jpg
 
 {% include blogroll.html %}
 {% include post-list.html %}
+<nav>
+	<ul class="pagination">
+		{% if paginator.previous_page %}
+			<li>
+				<a href="{{ paginator.previous_page_path }}" aria-label="Previous">
+					<span aria-hidden="true">&laquo; Previous</span>
+				</a>
+			</li>
+		{% endif %}
+		{% if paginator.next_page %}
+			<li>
+				<a href="{{ paginator.next_page_path }}" aria-label="Next">
+					<span aria-hidden="true">Next &raquo;</span>
+				</a>
+			</li>
+		{% endif %}
+	</ul>
+</nav>
