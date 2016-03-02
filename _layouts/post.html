@@ -7,7 +7,7 @@ layout: default
 	{{ content }}
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<div class="addthis_native_toolbox"></div>
-	<p><strong>Filed under <a href="#related">{{ page.category }}</a></strong></p>
+	<p><strong>Filed under <a href="{{ site.url }}/categories/{{ page.category }}">{{ page.category }}</a></strong></p>
 	<strong>Tags</strong>
 	<a href="#related">{{ page.tags | join: ' ' }}</a>
 </div>
