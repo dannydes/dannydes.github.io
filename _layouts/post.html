@@ -9,7 +9,9 @@ layout: default
 	<div class="addthis_native_toolbox"></div>
 	<p><strong>Filed under <a href="{{ site.url }}/categories/{{ page.category }}">{{ page.category }}</a></strong></p>
 	<strong>Tags</strong>
-	<a href="#related">{{ page.tags | join: ' ' }}</a>
+	{% for tag in page.tags %}
+		<a href="{{ site.url }}/tags/{{ tag }}">{{ tag }}</a>
+	{% endfor %}
 </div>
 
 <nav>

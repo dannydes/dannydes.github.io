@@ -2,3 +2,5 @@ url: http://dannydes.github.io
 gems: ['jekyll-paginate']
 paginate: 5
 paginate_path: "/blog/page:num/"
+tag_page_layout: tag_page
+tag_page_dir: tags
