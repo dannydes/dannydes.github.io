@@ -11,6 +11,8 @@
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
+{% elsif page.title == 'Home' %}
+	{% assign posts = site.posts %}
 {% else %}
 	{% assign posts = paginator.posts %}
 {% endif %}
