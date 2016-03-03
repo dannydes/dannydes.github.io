@@ -2,18 +2,4 @@
 layout: default
 ---
 
-<div class="row">
-{% for post in page.posts %}
-	<div class="col-md-6 col-xs-12">
-		<div class="well">
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<a href="{{ post.url }}" class="thumbnail">
-				<img src="{{ site.url }}/img/{{ post.image }}" alt="Post Image">
-			</a>
-			<p><strong>{{ post.date || date_to_string }}</strong></p>
-			<p>{{ post.excerpt }}</p>
-			<strong>{{ post.tags | join: ' ' }}</strong>
-		</div>
-	</div>
-{% endfor %}
-</div>
+{% include post-list.html %}
