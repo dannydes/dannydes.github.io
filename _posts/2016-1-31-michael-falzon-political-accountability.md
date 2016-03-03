@@ -2,7 +2,7 @@
 title: Michael Falzon - political accountability?
 layout: post
 category: politics
-tags: polititics labour nationalists pl pn gaffarena malta
+tags: politics labour nationalists pl pn gaffarena malta
 ---
 
 Falzon being accused of Gaffarena connections is old news and nobody can deny  
