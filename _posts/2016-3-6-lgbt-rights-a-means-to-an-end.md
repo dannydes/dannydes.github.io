@@ -13,4 +13,6 @@ It seems strange that the Prime Minister proposed such an issue now, all of a su
 
 If Dr. Muscat considered this issue so important, how come he did not propose this earlier?  What made him change his mind within these five years?
 
-<small>Read on (ADZ's blog)[https://maltagreenyouth.wordpress.com/2016/03/05/lgbt-rights-a-means-to-an-end/]</small>
+<iframe width="593" height="364" src="https://www.youtube.com/embed/IXRexqVXaS8" frameborder="0" allowfullscreen></iframe>
+
+<small>This post may be found on (ADZ's blog)[https://maltagreenyouth.wordpress.com/2016/03/05/lgbt-rights-a-means-to-an-end/]</small>
