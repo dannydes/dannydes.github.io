@@ -2,7 +2,7 @@
 title: LGBT Rights - A means to an end?
 layout: post
 category: politics
-image: 
+image: Joseph_Muscat.jpg
 ---
 
 With regards to Dr. Muscat’s call to introduce gay marriage, we are happy the Prime Minister has woken up to the AD 2013 manifesto proposal.  We believe it is a step towards a more inclusive society.  In fact AD and ADŻ have always stated that equal rights in marriage is the way forward.
@@ -15,4 +15,4 @@ If Dr. Muscat considered this issue so important, how come he did not propose th
 
 <iframe width="593" height="364" src="https://www.youtube.com/embed/IXRexqVXaS8" frameborder="0" allowfullscreen></iframe>
 
-<small>This post may be found on (ADZ's blog)[https://maltagreenyouth.wordpress.com/2016/03/05/lgbt-rights-a-means-to-an-end/]</small>
+<small>This post may be found on [ADZ's blog](https://maltagreenyouth.wordpress.com/2016/03/05/lgbt-rights-a-means-to-an-end/)</small>
