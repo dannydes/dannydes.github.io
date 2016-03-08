@@ -26,11 +26,11 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-right">
-						<li{% if page.title == 'Home' %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
-						<li{% if page.title == 'Blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
-						<li{% if page.title == 'Portfolio' %} class="active"{% endif %}><a href="{{ site.url }}/portfolio">Portfolio</a></li>
-						<li{% if page.title == 'Contact Me' %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li>
-						<li{% if page.title == 'About' %} class="active"{% endif %}><a href="{{ site.url }}/about">About</a></li>
+						<li{% if page.url == '/' %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
+						<li{% if page.url contains '/blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
+						<li{% if page.url contains '/portfolio' %} class="active"{% endif %}><a href="{{ site.url }}/portfolio">Portfolio</a></li>
+						<li{% if page.url contains '/contact' %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact Me</a></li>
+						<li{% if page.url contains '/about' %} class="active"{% endif %}><a href="{{ site.url }}/about">About</a></li>
 						<li>
 							<a href="https://www.facebook.com/DannyDes-875526745825288/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
 						</li>
