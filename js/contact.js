@@ -1,16 +1,16 @@
 (function ( $ ) {
 	$( '#contact-form' ).submit(function () {
-		$.post( 'http://contact-dannyde.byethost32.com/index.php', {
+		$.post( 'http://danieldesira.site88.net/index.php', {
 			name: $( '#name' ).val(),
 			email: $( '#email' ).val(),
 			subject: $( '#subject' ).val(),
 			message: $( '#message' ).val(),
 			hidden: $( '#hidden' ).val()
 		}, function ( data ) {
-			if ( data === '1' ) {
+			if ( data.charAt( 0 ) === '1' ) {
 				$( '#success' ).modal( 'show' );
 			} else {
-				$( '#failure' ).model( 'show' );
+				$( '#failure' ).modal( 'show' );
 			}
 		});
 		return false;
