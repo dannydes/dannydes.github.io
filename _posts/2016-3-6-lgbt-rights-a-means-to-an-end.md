@@ -2,6 +2,7 @@
 title: LGBT Rights - A means to an end?
 layout: post
 category: politics
+tags: humanrights politics pl ad gayrights gaymarriage civilunions
 image: Joseph_Muscat.jpg
 ---
 
