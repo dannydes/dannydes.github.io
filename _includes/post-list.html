@@ -19,6 +19,7 @@
 			</a>
 			<p><strong>{{ post.date || date_to_string }}</strong></p>
 			<p>{{ post.excerpt }}</p>
+			<p>Filed under <a href="{{ site.url }}/categories/{{ post.category }}">{{ post.category }}</a></p>
 			<strong>
 			{% for tag in post.tags %}
 				<a href="{{ site.url }}/tags/{{ tag }}">{{ tag }}</a>
