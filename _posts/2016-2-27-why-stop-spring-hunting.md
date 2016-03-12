@@ -2,6 +2,7 @@
 title: Why Stop Spring Hunting
 layout: post
 category: environment
+tags: environment politics hunting birds eu turtledove
 image: turt_gpc_tcm9-218695.jpg
 ---
 
