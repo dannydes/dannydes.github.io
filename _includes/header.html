@@ -6,7 +6,7 @@
 		<meta property="og:image" content="{{ site.url }}/img/{{ page.image }}">
 		<meta property="og:site_name" content="{{ page.title }}">
 		<link rel="icon" type="image/x-icon" href="{{ site.url }}/img/favicon.ico">
-		<link href="{{ site.url }}/atom.xml" rel="alternate" type="application/rss+xml">
+		<link href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="{{ site.url }}/css/style.css">
@@ -32,21 +32,12 @@
 						<li{% if page.url contains '/portfolio' %} class="active"{% endif %}><a href="{{ site.url }}/portfolio">Portfolio</a></li>
 						<li{% if page.url contains '/contact' %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact Me</a></li>
 						<li{% if page.url contains '/about' %} class="active"{% endif %}><a href="{{ site.url }}/about">About</a></li>
-						<li>
-							<a href="https://www.facebook.com/DannyDes-875526745825288/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="https://twitter.com/desiradaniel" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li>
-							<a href="https://instagram.com/ddesira" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/profile/view?id=AAIAABSIwhABArudvH7LKf-waTXG7Dix71NqMoE" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
-						</li>
-						<li>
-							<a href="https://github.com/dannydes" title="Github" target="_blank"><i class="fa fa-github"></i></a>
-						</li>
+						<li><a href="https://www.facebook.com/DannyDes-875526745825288/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/desiradaniel" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://instagram.com/ddesira" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/profile/view?id=AAIAABSIwhABArudvH7LKf-waTXG7Dix71NqMoE" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/dannydes" title="Github" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="{{ site.url }}/feed.xml" title="Atom feed"><i class="fa fa-feed"></i></a></li>
 					</ul>
 				</div>
 			</div>
