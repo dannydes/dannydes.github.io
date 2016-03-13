@@ -1,6 +1,6 @@
 title: dannydes
 description: The thoughts of Daniel Desira.
-url: http://localhost:4000
+url: http://dannydes.github.io
 author: Daniel Desira
 gems: ['jekyll-paginate', 'jekyll-feed']
 paginate: 5
