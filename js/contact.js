@@ -9,6 +9,9 @@
 		}, function ( data ) {
 			if ( data.charAt( 0 ) === '1' ) {
 				$( '#success' ).modal( 'show' );
+				
+				// Clear form.
+				$( '#name, #email, #subject, #message' ).val( '' );
 			} else {
 				$( '#failure' ).modal( 'show' );
 			}
