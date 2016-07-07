@@ -9,6 +9,24 @@ body { padding-top: 50px; }
 	max-width: 60px;
 }
 
+.sidebar {
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	z-index: 9999;
+	width: 40px;
+	background-color: #000;
+	opacity: 0.85;
+	color: #fff;
+	border-bottom-left-radius: 10px;
+	transition: all 100ms;
+}
+
+.sidebar:hover {
+	width: 200px;
+	height: 100%;
+}
+
 .slide {
 	height: 200px;
 	width: 100%;
