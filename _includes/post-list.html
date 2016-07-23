@@ -2,6 +2,8 @@
 	{% assign posts = (site.posts | where: 'category', page.category) %}
 {% elsif page.title == 'Home' %}
 	{% assign posts = site.posts %}
+{% elsif page.category %}
+	{% assign posts = site.categories[page.category] %}
 {% elsif page.layout == 'tag_page' %}
 	{% assign posts = page.posts %}
 {% else %}
