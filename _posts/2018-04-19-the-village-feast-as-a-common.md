@@ -11,6 +11,10 @@ of the feast.
 
 The impressive fireworks, the joyful marches and the statues, all add up to the atmosphere that brings locals of all ages together.
 
+The feast is hence not owned by the government or by some private entity but by the local community and various aspects of it are 
+managed by the same community. We can then, consider village feasts as social and cultural commons, since it brings people together 
+and is a long-held tradition.
+
 However, some parts of the village feast need to change - poles placed on narrow pavements blocking access to wheelchair users are 
 not cool and neither are the extreme rivalries in towns with more than one feast or the lack of regulations on the use of percolate 
 that ends up on agricultural produce, hence into our bodies. With some changes, the village feast can be enjoyed by everyone without 
