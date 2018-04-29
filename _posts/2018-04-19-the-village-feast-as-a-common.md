@@ -1,6 +1,9 @@
-# The Village Feast as a Common
-
-![Festa tal-Madonna tal-Grazzja](http://www.visitmalta.com/file.aspx?f=15292)
+---
+title: The Village Feast as a Common
+layout: post
+tags: commons islandlife malta feast
+image: http://www.visitmalta.com/file.aspx?f=15292
+---
 
 In Malta, we have the long lasting tradition of the village feast. Village feasts generally occur in summer, whereby a feast or 
 two is happening every week. The feasts have a religious background but are also part of the cultural and social life in the towns 
